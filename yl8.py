@@ -1,0 +1,1 @@
+aasta = int(input("Sisestage aasta: "))
