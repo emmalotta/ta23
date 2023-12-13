@@ -1,4 +1,7 @@
 sõna = str(input("Sisestage sõna (min 7 sümbolit): "))
-tühikud = sõna.spli(" ")
+a = sõna.split()
+b = len(sõna)
+if b < 7:
+print(b)
 
 

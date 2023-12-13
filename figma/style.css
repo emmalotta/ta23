@@ -1,0 +1,1022 @@
+@font-face {
+    font-family: 'Urbanist',sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Urbanist;
+}
+
+
+
+
+.nav_component {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.nav_padding_global {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.nav_container {
+    display: flex;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_content {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+.logo {
+    font-family: Urbanist;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    background: linear-gradient(90deg, #5350F6 2.42%, #E662FE 104.13%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+}
+
+.btn {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+    background: #4F4CE5;
+}
+
+button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    background-color: transparent;
+}
+
+
+
+
+.padding_global {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;    
+}
+
+.container_large {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.padding_section_medium {
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.header_content_header {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    align-self: stretch;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 88px;
+    background: linear-gradient(90deg, #4E4BE4 24.42%, #E862FE 73.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    align-self: stretch;
+    color: #FF3BFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.header_image {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img {
+    width: 585.174px;
+    height: 521.581px;  
+}
+
+
+/* 2 */
+
+
+.section_benefits {
+    display: flex;
+    padding: 80px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.section_padding_global {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.section_container_large {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    gap: 80px;
+}
+
+.section_padding_section_medium {
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    flex: 1 0 0;
+}
+
+
+h2 {
+    align-self: stretch;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    background: linear-gradient(90deg, #4E4BE4 24.42%, #E862FE 73.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header_content_header p {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+/* 3 */
+
+
+.benefits_component {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.benefits_content{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.benefits_content h3 {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.benefits_content p {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.benefits_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.benefits_list_wrapper {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: #181924;
+}
+
+.benefits_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.stack img{
+    width: 52px;
+    height: 52px;
+    color: #E862FE;
+}
+
+.benefits_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.benefits_info h4 {
+    width: 412px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.benefits_info p {
+    width: 412px;
+    color: #FCFDFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.devider {
+    width: 472px;
+    height: 1px;
+    opacity: 0.12;
+    background: #FFF;
+}
+
+.stack2 img {
+    width: 52px;
+    height: 52px;
+    color: #7534FF;
+}
+
+
+
+/* 4 */
+
+
+.section_cards {
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.section_container {
+    display: flex;
+    width: 1280px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section_header {
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.section_header p {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.section_grid {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.section_columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 32px 0px;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.section_column {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.section_frame_pic {
+    display: flex;
+    padding: 60px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 120px;
+    border-radius: 40px;
+    background: url("circle.png");
+    background-color: #181924;
+    background-repeat: no-repeat;
+    background-position: 184.4px 238.014px;
+    background-size: 100% 86.707%;
+}
+
+.section_frame {
+    display: flex;
+    padding: 60px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 120px;
+    border-radius: 40px;
+}
+
+.section_frame h3 {
+    width: 312.77px;
+    font-family: Urbanist;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    background: linear-gradient(90deg, #4F4CE5 1.56%, #E863FE 56.6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+
+}
+
+.section_frame p {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section_button {
+    border-radius: 30px;
+    background: #4F4CE5;
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+    background: #4F4CE5;
+    box-shadow: 0px 5px 15px 0px rgba(32, 91, 241, 0.20);
+    color: var(--light-100, #FFF);
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section_column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.section_frame2_pic {
+    display: flex;
+    width: 824px;
+    padding: 60px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 40px;
+    background: url("circle.png");
+    background-color: #181924;
+    background-repeat: no-repeat;
+    background-position: 630.791px 149.029px;
+    background-size: 45.029% 99.806%;
+    
+}
+
+.section_frame2 {
+    display: flex;
+    height: 133.115px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: transparent;
+}
+
+.section_frame2 h3 {
+    width: 697.624px;
+    font-family: Urbanist;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    background: linear-gradient(90deg, #4F4CE5 1.56%, #E863FE 56.6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section_frame2 p {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: transparent;
+}
+
+.section_button2 {
+    color: var(--light-100, #FFF);
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+/* 5 */
+
+.section_info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    background: url("background5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section_info_padding_global {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    
+}
+
+.section_info_container {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    gap: 80px;
+}
+
+.section_info_padding_medium {
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0
+}
+
+.section_info_header {
+    display: flex;
+    width: 1152px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_info_header h3{
+    width: 1280px;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    background: linear-gradient(90deg, #4E4BE4 24.42%, #E862FE 73.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section_info_header p {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.section_info_component1 {
+    display: flex;
+    padding: 64px 0px;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.info_image_wrapper1 {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.info_img1 {
+    height: 480px;
+    align-self: stretch;
+    background: url("graph.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info_content1 {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.info_text_align_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.info_text_align_left h2 {
+    width: 403.365px;
+    font-family: Urbanist;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: -1.26px;
+    background: linear-gradient(90deg, #4A3AFF 0%, #E863FE 51.9%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info_text_align_left p {
+    width: 152.841px;
+    height: 23.418px;
+    color: #4A3AFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+.section_info_component2 {
+    display: flex;
+    padding: 64px 0px;
+    align-items: flex-end;
+    gap: 80px;
+}
+
+.info_header_content {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+._info_header_content h2 {
+    width: 403.365px;
+    font-family: Urbanist;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: -1.26px;
+    background: linear-gradient(90deg, #4A3AFF 0%, #E863FE 51.9%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFF;
+
+}
+
+.info_header_content p {
+    width: 152.841px;
+    height: 23.418px;
+    color: #4A3AFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.info_image_wrapper2 {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+
+}
+
+.info_img2 {
+    height: 480px;
+    align-self: stretch;
+    background: url("graph.png");  
+    background-repeat: no-repeat;  
+    background-size: contain;
+}
+
+
+.section_info_component3 {
+    display: flex;
+    width: 1280px;
+    padding: 64px 0px;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.info_image_wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.info_img3 {
+    height: 480px;
+    align-self: stretch;
+    background: url("graph.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info_content3 {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.info_content3 h2 {
+    width: 403.365px;
+    font-family: Urbanist;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 50.4px */
+    letter-spacing: -1.26px;
+    background: linear-gradient(90deg, #4A3AFF 0%, #E863FE 51.9%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info_content3 p {
+    width: 152.841px;
+    height: 23.418px;
+    color: #4A3AFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+/* 6 */
+
+
+.section_testimonial {
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.testimonial_img1 {
+    width: 283px;
+    height: 289px;
+    position: absolute;
+    left: -61.5px;
+    bottom: 2.5px;
+    background: url("circle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.testimonial_img2 {
+    width: 283px;
+    height: 289px;
+    position: absolute;
+    right: -61.5px;
+    top: 58.5px;
+    background: url("circle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.testimonial_padding_global {
+    display: flex;
+    padding: 0px 32px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.testimonial_container {
+    display: flex;
+    width: 1280px;
+    align-items: flex-start;
+}
+
+.testimonial_padding_medium {
+    display: flex;
+    padding: 80px 0px;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.testimonial_component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+.testimonial_component h2 {
+    align-self: stretch;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    background: linear-gradient(90deg, #4E4BE4 24.42%, #E862FE 73.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.testimonial_content {
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    
+}
+
+.testimonial_column {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.testimonial_card {
+    display: block;
+    padding: 32px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 30px;
+    background: #181924;
+    
+}
+
+.testimonial_card p {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: transparent;
+}
+
+.authors {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    background-color: transparent;
+}
+
+.author_img_wrap{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.author_img {
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 100px;
+    background: url("author.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.author_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+.author_name {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    background-color: transparent;
+}
+
+.author_text {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: transparent;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.vector img{
+    width: 20.319px;
+    height: 18.552px;
+    fill: #FFC46C;
+
+}
